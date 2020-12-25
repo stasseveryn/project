@@ -115,11 +115,11 @@ main {
 .navbar-light .navbar-brand {
     font-size: 32px;
     font-weight: 600;
-    color: #747511;
+    color: #a8a62c;
 }
 .navbar-light .navbar-nav .nav-link{
     font-weight: 600;
-    color: #020202;
+    color: #ca4b0c;
 }
 @media(max-width:400px) {
     .navbar-light .navbar-brand {
@@ -131,7 +131,7 @@ h1.furniture {
     font-size: 48px;
     color: white;
     font-weight: 700;
-    margin: 170px 0 0;
+    margin: 110px 0 0;
 }
 @media(max-width:400px) {
     h1.furniture {
@@ -214,7 +214,7 @@ h2.studio {
     font-weight: 600;
 }
 span.sdi {
-    color: #747511;
+    color: #525151d3;
 }
 span.orange-two {
     color: #f4623a;
@@ -306,7 +306,7 @@ p.cardstyle{
     margin-top: 70px;
     margin-bottom: 30px;
     align-items: center;
-    color: #747511;
+    color: #0a0a0a;
     font-size: 32px;
     font-weight: 600;
 }
