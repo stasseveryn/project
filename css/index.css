@@ -365,26 +365,26 @@ a.d-block {
     color: #f4623a;
     padding-bottom: 30px;
 }
-.footer-end{
-    display:-moz-inline-grid;
+.footer-end {
+    display: -moz-inline-grid;
     background-color: rgb(29, 29, 29);
     padding-top: 10px;
 }
 p.iliuk-smart-design {
-    max-width:100%;
-    height:80px;
+    max-width: 100%;
+    height: 80px;
     color: rgba(248, 147, 32, 0.87);
-    text-align:left;
+    text-align: left;
 }
-p.iliuk-smart-design-two{
-    text-align:right;
+p.iliuk-smart-design-two {
+    text-align: right;
     color: rgba(248, 147, 32, 0.87);
 }
-.contacts-address{
+.contacts-address {
     color: rgba(44, 137, 243, 0.774);
     display: block;
 }
-.copyright{
+.copyright {
     margin-top: 90px;
     display: flex;
     justify-content: space-around;
@@ -395,4 +395,3 @@ ul.adress {
     text-align: center;
     padding: 2px;
 }
-
