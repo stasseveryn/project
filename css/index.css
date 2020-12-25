@@ -286,24 +286,24 @@ p.cardstyle {
 
 @media(max-width:600px) {
     .main-cards {
+        max-width: 320px;
+        height: auto;
         align-items: center;
         display: block;
-        padding: auto;
         background-color: #f8f9fa;
     }
     .card {
-        width: auto;
+        max-width: 270px;
         height: auto;
         display: block;
-        padding: 20px;
+        padding: 3px;
         align-items: center;
         margin-bottom: 170px;
     }
     .gallery-works {
         color: #95a730;
-        padding-top: 590px;
+        padding-top: 20px;
         padding-bottom: 20px;
-
     }
 }
 
@@ -311,7 +311,7 @@ p.cardstyle {
     margin-top: 70px;
     margin-bottom: 30px;
     align-items: center;
-    color: #0a0a0a;
+    color: rgba(23, 23, 24, 0.774);
     font-size: 32px;
     font-weight: 600;
 }
@@ -365,6 +365,34 @@ a.d-block {
     color: #f4623a;
     padding-bottom: 30px;
 }
-p.iliuk-smart-design {
-    padding-bottom: 40px;
+.footer-end{
+    display:-moz-inline-grid;
+    background-color: rgb(29, 29, 29);
+    padding-top: 10px;
 }
+p.iliuk-smart-design {
+    max-width:100%;
+    height:80px;
+    color: rgba(248, 147, 32, 0.87);
+    text-align:left;
+}
+p.iliuk-smart-design-two{
+    text-align:right;
+    color: rgba(248, 147, 32, 0.87);
+}
+.contacts-address{
+    color: rgba(44, 137, 243, 0.774);
+    display: block;
+}
+.copyright{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+ul.adress {
+    line-height: 1.5;
+    margin: 5px;
+    text-align: center;
+    padding: 2px;
+}
+
