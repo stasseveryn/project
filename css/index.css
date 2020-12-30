@@ -419,6 +419,28 @@ ul.adress {
     text-align: center;
     padding: 2px;
 }
+.about-us-link {
+    height: 600px;
+    text-align: left;
+    font-size: 23px;
+    color: rgb(250, 250, 250);
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(126, 108, 96, 0.445) 100%), url('../img/background-start.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 20px 10px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+@media(max-width:600px) {
+    .about-us-link {
+    height: 1000px;
+
+    font-size: 15px;
+        
+    }
+}
 h2.kitchen-calc{
     font-size: 20px;
     color:rgba(255, 255, 255, 0.87);
@@ -439,7 +461,6 @@ input.kitchen-calc{
     color: rgb(39, 29, 39);
     border-color:white;
     border-radius: 4px;
-    
 }
 .calc{
     font-size: 30px;
@@ -447,18 +468,18 @@ input.kitchen-calc{
     margin: 7px 5px 10px 5px;
 }
 button.calc{
-        padding: 1.25rem 2.25rem;
-        margin: 20px 30px 40px 30px;
-        font-size: 0.85rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        border: none;
-        border-radius: 10rem;
-        color: #fff;
-        background-color: #f75022;
-        border-color: #f4623a;
+    padding: 1.25rem 2.25rem;
+    margin: 20px 30px 40px 30px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    color: #fff;
+    background-color: #f75022;
+    border-color: #f4623a;
     }
     button.calc:hover {
-        background-color: #cf360c;
-        border-color: #c9360e;
+    background-color: #cf360c;
+    border-color: #c9360e;
 }
