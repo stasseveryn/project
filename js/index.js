@@ -7,7 +7,7 @@ function calculate() {
     } else if(length == ""){
     alert("Ви не вказали довжину в см.");
     } else {
-    price = 2;
+    price = 1.5;
     square = parseFloat (width)* parseFloat (length);
     document.getElementById('square').innerHTML = "Загальна площа: "+ square +" кв. см.";
     constPrice = square*price;
